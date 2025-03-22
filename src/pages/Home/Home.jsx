@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Home.css";
 import GridMotion from "../../components/ui/GridUi";
 import {useNavigate } from "react-router"
 

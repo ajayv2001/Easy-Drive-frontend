@@ -12,7 +12,7 @@ const reviews = [
   {
     "name": "Albert Flores",
     "image": "https://randomuser.me/api/portraits/men/1.jpg",
-    "review": "Easy Drive is the best car rental service! The booking process was seamless, and the car was in excellent condition.",
+    "review": "Easy Drive is the best car rental service! The booking process was seamless.",
     "role": "Happy Client"
   },
   {
@@ -36,7 +36,7 @@ const reviews = [
   {
     "name": "Daniel Brown",
     "image": "https://randomuser.me/api/portraits/men/5.jpg",
-    "review": "I was impressed with the variety of cars available. Everything was well-maintained and affordable!",
+    "review": "I was impressed with the variety of cars available. Everything was well-maintained!",
     "role": "Business Traveler"
   },
   {
@@ -114,7 +114,7 @@ const MainPage = () => {
           <div className="mt-6 flex space-x-4">
             <Link
               to="/signin"
-              className="bg-[#cee124] hover:bg-[#848a49] text-white px-6 py-3 rounded-lg text-lg transition"
+              className="bg-[#cee124] hover:bg-[#848a49] text-black px-6 py-3 rounded-lg text-lg transition"
             >
               Sign Up
             </Link>
@@ -253,11 +253,11 @@ const MainPage = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">About Us</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Car Fleet</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Subscription Plans</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Locations</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">FAQs</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">About Us</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Car Fleet</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Subscription Plans</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Locations</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">FAQs</a></li>
           </ul>
         </div>
 
@@ -265,11 +265,11 @@ const MainPage = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Support</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Contact Us</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Help Center</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Terms & Conditions</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Privacy Policy</a></li>
-            <li><a href="#" className="text-black hover:text-[#cee124] transition-colors">Careers</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Contact Us</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Help Center</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Terms & Conditions</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Privacy Policy</a></li>
+            <li><a href="#" className="text-white hover:text-[#cee124] transition-colors">Careers</a></li>
           </ul>
         </div>
 

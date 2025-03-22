@@ -10,6 +10,8 @@ import SearchResults from './pages/Results/SearchResults.jsx';
 import CarDetails from './pages/CarDetails/CarDetails.jsx';
 import CarRentalSearch from './pages/Home/Home.jsx';
 import MainPage from './components/MainPage/MainPage.jsx';
+import Success from './pages/stripe/Sucess.jsx';
+import Cancel from './pages/stripe/Cancel.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +24,8 @@ createRoot(document.getElementById('root')).render(
       <Route path="/results" element={<SearchResults/>} />
       <Route path="/details/:id" element={<CarDetails />} />
       <Route  path='/main-page' element={<MainPage/>}/>
+      <Route  path='/success' element={<Success/>}/>
+      <Route  path='/cancel' element={<Cancel/>}/>
     </Routes>
   </BrowserRouter>
   </StrictMode>,
