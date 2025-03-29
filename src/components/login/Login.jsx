@@ -20,7 +20,7 @@ function Login() {
 
   const onSubmit = async (formData) => {
     try {
-      const response = await axios.post("http://127.0.0.1:4000/api/log-in", {
+      const response = await axios.post("https://backend-easy-drive-car-rentel-13.onrender.com/api/log-in", {
         email: formData.email,
         password: formData.password,
       });

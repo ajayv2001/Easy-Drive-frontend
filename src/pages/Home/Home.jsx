@@ -25,7 +25,7 @@ const CarRentalSearch = () => {
   const handleSearch = async () => {
     setLoading(true);
     try {
-      const response = await axios.get("http://localhost:4000/api/location", {
+      const response = await axios.get("https://backend-easy-drive-car-rentel-13.onrender.com/api/location", {
         params: { query: location, pickUpDate, dropOffDate, pickUpTime, dropOffTime },
       });
       if (response.data.data?.search_results.length > 0) {

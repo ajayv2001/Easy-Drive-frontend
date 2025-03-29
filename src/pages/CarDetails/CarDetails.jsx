@@ -16,7 +16,7 @@ const CarDetails = () => {
 
   const handlePayment = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/create-checkout-session", {
+      const response = await fetch("https://backend-easy-drive-car-rentel-13.onrender.com/api/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ car }),
