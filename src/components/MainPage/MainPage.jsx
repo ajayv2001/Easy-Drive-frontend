@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { useNavigate } from "react-router";
 import blackcar from '../../assets/blackcar.avif'
+import creditcard from '../../assets/credit-card.png'
 
 
 const reviews = [
@@ -62,7 +63,7 @@ const reviews = [
 
 const subscriptionFeatures = [
   {
-    icon: "/src/assets/credit-card.png",
+    icon: creditcard,
     title: "No Downpayment",
   },
   {
