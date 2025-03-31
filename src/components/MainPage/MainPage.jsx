@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { useNavigate } from "react-router";
+import blackcar from '../../assets/blackcar.avif'
 
 
 const reviews = [
@@ -92,7 +93,7 @@ const MainPage = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[600px]">
         <img
-          src="\src\assets\black-car-with-black-background_36682-291059.avif"
+          src={blackcar}
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute  inset-x-0 bottom-0 flex flex-col  items-center justify-center text-center bg-gradient-to-t from-black via-transparent to-transparent px-12 pb-5 ">
