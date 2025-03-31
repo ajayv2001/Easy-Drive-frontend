@@ -11,6 +11,8 @@ import tripsCar from "../../assets/trips.jpg";
 import airportTransfer from "../../assets/airport.jpg";
 import support from "../../assets/two.webp";
 import booking from "../../assets/booking.jpg";
+import jaguar from '../../assets/jaguar.jpg'
+
 
 const CarRentalSearch = () => {
   const navigate = useNavigate();
@@ -59,7 +61,7 @@ const CarRentalSearch = () => {
 
       <div className="relative w-full">
         <img 
-          src="/src/assets/jaguar1920x1080.jpg" 
+          src={jaguar} 
           alt="Car" 
           className="w-full h-auto max-h-screen object-cover" 
         />
