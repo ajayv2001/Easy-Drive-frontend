@@ -8,6 +8,12 @@ import 'swiper/css/pagination';
 import { useNavigate } from "react-router";
 import blackcar from '../../assets/blackcar.avif'
 import creditcard from '../../assets/credit-card.png'
+import insurance from '../../assets/insurance.png'
+import insurancetwo from '../../assets/insu2.png'
+import zero from '../../assets/zero.png'
+import road from '../../assets/road.png'
+
+
 
 
 const reviews = [
@@ -67,21 +73,21 @@ const subscriptionFeatures = [
     title: "No Downpayment",
   },
   {
-    icon: "/src/assets/insurance.png",
+    icon: insurance,
     title: "Free Insurance",
   },
   {
-    icon: "/src/assets/insu2.png",
+    icon: insurancetwo,
     title: "Safe Choice Authorized Rental",
   
   },
   {
-    icon: "/src/assets/zero.png",
+    icon: zero,
     title: "Zero hidden charges",
 
   },
   {
-    icon: "/src/assets/road.png",
+    icon: road,
     title: "Anytime Flexible Options",
     
   },
